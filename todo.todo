@@ -2,12 +2,18 @@ Attendence taking app:
   ☐ Make an attendence taking app that will ease the teacher to maintain records.
 
 Requirements:
-  ☐ A teacher should be able to add a student to the records.
+  ☐ A teacher should be able to login to their accounts.
+  ☐ He should be able to add a student to the records.
   ☐ He should be able to take attendence of all the saved students.
   ☐ Attendence needs to be saved in the database.
   ☐ The teacher should be able to take attendence of any previous date also.
   ☐ He can view any specific date attendence.
   ☐ He can view attendence of any specific month.
+  ☐ He should be able to remove any student from database.
 
-Additional Requirements:
-  ☐
+Todo:
+  Feature 1 - login:
+    ☐ Get '/' should give the login page.
+    ☐ Find a way to get the user name and validate it.
+    ☐ If the username is incorrect then a login failed message should appear.
+    ☐ Login failed message should dissapear on next refresh of the page.
