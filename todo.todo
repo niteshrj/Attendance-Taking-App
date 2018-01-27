@@ -1,0 +1,13 @@
+Attendence taking app:
+  ☐ Make an attendence taking app that will ease the teacher to maintain records.
+
+Requirements:
+  ☐ A teacher should be able to add a student to the records.
+  ☐ He should be able to take attendence of all the saved students.
+  ☐ Attendence needs to be saved in the database.
+  ☐ The teacher should be able to take attendence of any previous date also.
+  ☐ He can view any specific date attendence.
+  ☐ He can view attendence of any specific month.
+
+Additional Requirements:
+  ☐
