@@ -13,7 +13,7 @@ Requirements:
 
 Todo:
   Feature 1 - login:
-    ☐ Get '/' should give the login page.
-    ☐ Find a way to get the user name and validate it.
-    ☐ If the username is incorrect then a login failed message should appear.
-    ☐ Login failed message should dissapear on next refresh of the page.
+    ✔ Get '/' should give the login page. @done(2018-01-27 20:28) @project(Todo / Feature 1 - login)
+    ✔ Find a way to get the user name and validate it. @done(2018-01-27 20:28) @project(Todo / Feature 1 - login)
+    ✔ If username is incorrect then redirect him to login page. @done(2018-01-27 20:28) @project(Todo / Feature 1 - login)
+    ✔ If username is correct then redirect to attendance page. @done(2018-01-27 20:30) @project(Todo / Feature 1 - login)

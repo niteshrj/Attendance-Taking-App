@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/attendance.css">
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="./js/attendance.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <nav class="navigation-bar">
+    <div id="google_translate_element"></div>
+    <div class="empty"></div>
+    <div class="navigation-bar-options">Home</div>
+    <div class="navigation-bar-options">About</div>
+    <div class="navigation-bar-options" id="Contact-us">Contact us</div>
+    <div id="register" class="navigation-bar-options">Register</div>
+  </nav>
+
+  <body>
+    <div class="popup animateZoom">
+      <div class="registerBox">
+        <span class="close">&times;</span>
+        <form action="/register" method="post">
+          <div class="username">
+            <i class="fa fa-user"></i>
+            Username: <input type="text" name="username" required><br>
+          </div>
+          <div class="pwd">
+            <i class="fa fa-unlock-alt"></i>
+            Password: <input type="password" name="password" required><br><br>
+          </div>
+          <input type="submit" id="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
