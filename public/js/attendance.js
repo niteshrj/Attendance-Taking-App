@@ -3,17 +3,26 @@ function googleTranslateElementInit() {
 }
 
 const showRegisterBox = function(){
-  let registerBox = document.querySelector('.registerBox');
-  registerBox.style.visibility = 'visible';
-  let close = document.querySelector('.close');
-  close.onclick = ()=>{
-    registerBox.style.visibility = 'hidden';
-  }
+  let popup = document.querySelector('.popup');
+  popup.style.display = 'block';
 }
 
-const setRegisterOnclick = function(){
+const hideRegisterBox = function(){
+  let popup = document.querySelector('.popup');
+  popup.style.display = 'none';
+}
+
+const closePopup = function(id) {
+  document.querySelectorAll(`.${id}`)[0].style.visibility = 'hidden';
+  let popup = document.querySelector('.popup');
+  popup.style.visibility = 'hidden';
+};
+
+const setOnClick = function(){
   let registerButton = document.querySelector('#register');
+  let close = document.querySelector('.close');
   registerButton.onclick = showRegisterBox;
+  close.onclick = hideRegisterBox;
 }
 
-window.onload = setRegisterOnclick;
+window.onload = setOnClick;

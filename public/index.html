@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/attendance.css">
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
     <script type="text/javascript" src="./js/attendance.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
@@ -18,21 +18,22 @@
   </nav>
 
   <body>
-    <div class="popup animateZoom">
-      <div class="registerBox">
-        <span class="close">&times;</span>
+    <div class="popup">
+      <div class="registerBox animateZoom">
+        <span class="close" onclick="closePopup('registerBox')">&times;</span>
         <form action="/register" method="post">
           <div class="username">
             <i class="fa fa-user"></i>
-            Username: <input type="text" name="username" required><br>
+            <input autofocus type="text" name="username" placeholder="Username" required/><br><br>
           </div>
           <div class="pwd">
             <i class="fa fa-unlock-alt"></i>
-            Password: <input type="password" name="password" required><br><br>
+            <input type="password" name="password" placeholder="Password" required/><br><br>
           </div>
-          <input type="submit" id="submit" value="Submit">
+          <input type="submit" id="submit" value="Sign Up" />
         </form>
       </div>
     </div>
   </body>
+
 </html>
